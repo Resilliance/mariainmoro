@@ -1,0 +1,27 @@
+.border-mauve{
+    border-color: #C77398;
+    color: #C77398;
+}
+
+.social-links ul, li{
+    list-style-type:none;
+    display: inline-block;
+}
+
+.social{
+    width:25px;
+    height:25px;
+}
+
+/* img{
+  width: 100%;
+  height: auto;
+} */
+
+/* #profile-pic{
+    width:256px;
+    height: 192px;
+    border-radius:50%;
+    margin-left: auto;
+    margin-right: auto;
+} */

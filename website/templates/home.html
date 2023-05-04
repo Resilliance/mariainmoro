@@ -1,0 +1,115 @@
+{% extends 'base.html'%}
+{% load static %}
+
+{% block content %}
+<body>
+    <title>Maria Moro</title>
+    <!-- <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css"> -->
+    <br/>
+    <div class="container">
+        <div class="row">
+            <div class="col pr-3">
+                <div class="card card-body shadow p-3 mb-5 bg-white-rounded h-100 border-success" id="profile-wrapper">
+                    <br>
+                    <img class="shadow" style="height: 175px;width:175px;border-radius:50%;margin-left: auto;margin-right: auto;" src="{% static 'images/face.png' %}">
+                    <hr>
+                    <!-- <br> -->
+                    <h4><strong>Olá, it's Maria!</strong></h4>
+                    <p>Acting is my heart, but real estate is my soul.</p>
+                    <ul style="list-style-type:none;display: inline-block;">
+                        <a href="https://www.linkedin.com/in/mariainmoro">
+                        <li style="list-style-type:none;display: inline-block;"><img class="social" src="{% static 'images/linkedin.jpg' %}" style="height: 25px;width: 25px;"/></li>
+                        </a>
+                        <a href="https://www.backstage.com/u/maria-moro/">
+                        <li style="list-style-type:none;display: inline-block;"><img class="social" src="{% static 'images/backstage.png' %}" style="height: 22px;width: 22px;border-radius: 50%;"/></li>
+                        </a>
+                    </ul>
+                
+                
+                </div>
+            </div>
+
+            <div class="col-9 pl-3">
+                <div class="card card-body shadow p-3 mb-5 bg-white-rounded h-100" style="border-color: #C77398;">
+                    <br>
+                    <h4>Who am I?</h4>
+                    <hr>
+                    <p>
+                    As an aspiring real estate agent, my goal is to help clients find their dream homes by providing personalized solutions and guidance.
+                    I am committed to offering a seamless experience while building a trustworthy reputation.
+                    By leveraging my expertise and relationships, I aim to fulfill homeownership dreams for countless individuals and families.
+                    </p>
+                    <br>
+                    <h4>Education</h4>
+                    <hr>
+                    <p>Valencia College (01/2022 - 08/2024)<br>Major: Business</p>
+                    
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-8 pr-3">
+                <div class="card card-body shadow p-3 mb-5 bg-white-rounded h-100" style="border-color: #C77398;">
+                <h4>Experience</h4>
+                <hr>
+                <p>TD Bank (Customer Experience Coordinator)<br>11/2022 - Present</p>
+                <ul>
+                    <li>Connected with customers by phone or in person providing information about 
+                        products and services, and collecting information to feed the company’s 
+                        database, so we always anticipate the customer needs</li>
+                    <li>Analyzed customer complaints and further investigated to 
+                        find a satisfactory solution, achieving a 95% customer satisfaction rating</li>
+                </ul>
+                <p>Banana Republic (Stylist)<br>02/2022 - 04/2023</p>
+                <ul>
+                    <li>Anticipated customer's needs and provided them with high-quality service while upholding brand standards and values to ensure customer satisfaction</li>
+                    <li>Handled POS transactions including credit, cash, exchange returns, and refunds to ensure shameless and accurate cash flow</li>
+                </ul>
+                <p>Meta Consultoria (Project Director)<br>09/2020 - 06/2021</p>
+                <ul>
+                    <li>Responsible for 90% of prospected clients through different platforms during the year of 2021, explaining our values and proposal to clients</li>
+                    <li>Drafted new and improved project management office policies and processes</li>
+                    <li>Created marketing strategies through different social media platforms that increased our reach by 20% in different demographics</li>
+                </ul>
+                </div>
+            </div>
+            <div class="col pl-3">
+                <div class="card card-body shadow p-3 mb-5 bg-white-rounded h-100 border-success">
+                <br>
+                <h4>Skills</h4>
+                <hr>
+                <ul>
+                    <li>Google Ads</li>
+                    <li>Google Suite</li>
+                    <li>Google Analytics</li>
+                    <li>Facebook Ads</li>
+                    <li>Excel</li>
+                    <li>Portugeuse (Native)</li>
+                    <li>Spanish (Fluent)</li>
+                    <li>Adobe Premiere Pro</li>
+                </ul>
+                <br>
+                <h4>Projects</h4>
+                <hr>
+                <ul>
+                    <li><a href="https://www.ispot.tv/ad/2SjX/sprouts-farmers-market-holidays-family-dinner">Sprout's Holiday Commercial</a></li>
+                    <li>App Advertisement: <a href="https://rplabs.com/">SweetMeet</a></li>
+                    <li>App Testimonial: <a href="https://simple.life/">Simple: Intermittent Fasting</a></li>
+                    <li><a href="https://www.reednissan.com/">Reed Nissan Commercial</a></li>
+                    <li>Reality TV(YouTube): <a href="https://www.youtube.com/@WHENREALITYSTRIKES1">When Reality Strikes</a><strong> (Unpublished)</strong> </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+
+        <!-- <div class="text-center">
+            <h1><strong>Maria Moro</strong></h1>
+        </div> -->
+    </div>
+    <br><br>
+</body>
+<!-- This is where the pages go -->
+{% endblock content %}
